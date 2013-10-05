@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
+		android:layout_width="fill_parent" 
+		android:layout_height="150dp"
+		android:background="@color/bgcolor">
+<LinearLayout
+		android:id="@+id/statusLayout" 
+		android:orientation="vertical"
+		android:layout_width="fill_parent" 
+		android:minWidth="240sp" 
+		android:layout_height="150dp"
+		android:paddingLeft="10dp"
+		android:paddingRight="10dp"
+		android:paddingBottom="15dp"
+		android:paddingTop="10dp"
+		>
+
+	<Spinner android:id="@+id/statusview_spinner"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:prompt="@string/set_status_title"
+		android:layout_marginBottom="15dp"
+	/>
+	<EditText android:id="@+id/statusview_message"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:hint="@string/set_status_msg_hint"
+		android:layout_marginBottom="15dp"
+		android:singleLine="true"
+	/>
+
+	<CheckBox
+	    android:id="@+id/fbStatusUploadCheckBox"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginBottom="15dp"
+	    android:visibility="gone"
+	    android:text="@string/post_to_fb" />
+
+</LinearLayout>
+</ScrollView>

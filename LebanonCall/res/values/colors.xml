@@ -1,0 +1,44 @@
+<!--
+  Copyright 2011 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<resources>
+    <color name="actionbar_title_color">#224894</color>
+    <color name="black">#ff000000</color>
+    <color name="teal">#008080</color>
+	<color name="red">#ff0000</color>
+	<color name="green">#00ff00</color>
+	<color name="blue">#0000ff</color>
+	<color name="actionbar">#2F4F4F</color>
+	<color name="iconbar">#306d77</color>
+	<color name="white">#ffffffff</color>
+	<color name="ltgrey">#ffcccccc</color>
+	<color name="grey">#ff888888</color>
+	<color name="ltblue">#3399ff</color>
+	<color name="gold">#FFD700</color>
+	<color name="ltgold">#EEDC82</color>
+	<color name="ltslategrey">#778899</color>
+	<color name="slategrey">#6C7B8B</color>
+	<color name="bgcolor">#F4F4F4</color>
+	<color name="bgcolor2">#B0C4DE</color>
+	<color name="bgcolor1">#808080</color>
+	<color name="transparent">#00000000</color>
+	<color name="separator">#8eaaaa</color>
+	<color name="divider">#2F4F4F</color>
+	<color name="section_startcolor">#aab7c0</color>
+    <color name="section_endcolor">#b9c3cc</color>
+    <color name="section_startcolor_selected">#c4b4c6</color>
+    <color name="section_endcolor_selected">#4f3e51</color>
+</resources>

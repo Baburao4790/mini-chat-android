@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="INDEX_MESSAGE">0</integer>
+    <integer name="INDEX_MESSAGE_TYPE">1</integer>
+    <integer name="INDEX_MESSAGE_ID">2</integer>
+    <integer name="INDEX_POSITION">3</integer>
+</resources>

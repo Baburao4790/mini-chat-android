@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="380dp"
+    android:orientation="vertical"
+    android:background="@drawable/dbg">
+
+   <!--  <TextView
+        android:id="@+id/textViewMessage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="Fetch Message History"
+        android:textStyle="bold|italic" />
+
+    <RelativeLayout
+        android:id="@+id/message_button_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/button1day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:text="1 Day  " />
+       
+
+        <Button
+            android:id="@+id/button1month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:text="1 Month" />
+        
+        <Button
+            android:id="@+id/button1week"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/button1month"
+            android:layout_toRightOf="@id/button1day"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:text="1 Week " />
+
+    </RelativeLayout> -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        
+        <Button
+            android:id="@+id/sendImage"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:text="Send Image" 
+            android:textStyle="bold"
+            android:textColor="@color/grey"
+            android:background="@drawable/all_button_selector"/>
+
+        <Button
+            android:id="@+id/sendContact"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_alignLeft="@+id/sendImage"
+            android:layout_alignRight="@+id/sendImage"
+            android:layout_below="@+id/sendImage"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/grey"
+            android:text="Send Phone Contact"
+            android:background="@drawable/all_button_selector" />
+
+        <Button
+            android:id="@+id/sendAudio"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_alignLeft="@+id/sendContact"
+            android:layout_alignRight="@+id/sendContact"
+            android:layout_below="@+id/sendContact"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/grey"
+            android:text="Send Audio Clip"
+            android:background="@drawable/all_button_selector" />
+
+		<Button
+            android:id="@+id/sendVideo"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_alignLeft="@+id/sendAudio"
+            android:layout_alignRight="@+id/sendAudio"
+            android:layout_below="@+id/sendAudio"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/grey"
+            android:text="Share Video Clip"
+            android:background="@drawable/all_button_selector" />
+
+        <Button
+            android:id="@+id/sendLocation"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_alignLeft="@+id/sendVideo"
+            android:layout_alignRight="@+id/sendVideo"
+            android:layout_below="@+id/sendVideo"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/grey"
+            android:text="Share Location"
+            android:background="@drawable/all_button_selector" />
+        
+        <Button
+            android:id="@+id/sendDummy"
+            android:layout_width="fill_parent"
+            android:layout_height="5dp"
+            android:layout_alignLeft="@+id/sendAudio"
+            android:layout_alignRight="@+id/sendAudio"
+            android:layout_below="@+id/sendAudio"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/grey"
+            android:background="@drawable/all_button_selector"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+</LinearLayout>

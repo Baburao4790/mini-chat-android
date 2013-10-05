@@ -1,0 +1,85 @@
+<resources>
+
+    <string name="app_name"><i>Spactron</i></string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Spactron</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="menu_roster">Roster List</string>
+    <string name="menu_all_contact">All Contact List</string>
+    <string name="menu_monty_contact">Monty Chat User Contact List</string>
+    <string name="menu_unread_msg">Unread Messages</string>
+    <string name="menu_back">Back</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_search">Search</string>
+	<string name="menu_login_state">Login State</string>
+	<string name="loading"><i>Loading...</i></string>
+	<string name="btn_continue">Continue</string>
+	<string name="btn_cancel">Cancel</string>
+	<string name="btn_exit">Exit</string>
+	<string name="btn_code_received">I already received the code</string>
+	<string name="btn_finish">Finish</string>
+	<string name="btn_forward">Forward</string>
+	<string name="btn_contact">Contact Us</string>
+	<string name="btn_send">Send</string>
+	<string name="btn_support">Verification code not received</string>
+	<string name="btn_select_image">Select Image</string>
+	<string name="btn_start_recording">Start Recording</string>
+	<string name="btn_stop_recording">Stop Recording</string>
+	<string name="btn_front_camera">Front Camera</string>
+	<string name="btn_back_camera">Back Camera</string>
+	<string name="btn_all_contact">All</string>
+	<string name="btn_montychat_contact">CallLebanon</string>
+	<string name="btn_unregister"><B>Unregister</B></string>
+	<string name="empty"></string>
+	<string name="hint_message">Message</string>
+	<string name="hint_mobile_number">john.doe@email.com</string>
+	<string name="hint_first_name">First Name</string>
+	<string name="hint_name">Enter Your Name</string>
+	<string name="hint_last_name">Last Name</string>
+	<string name="hint_email_id">Email ID </string>
+	<string name="hint_search_phone_contact">Search Phone Contact </string>
+	<string name="hint_search_rate_list">Search Country</string>
+	<string name="hint_verification_code">Verification Code</string>
+	<string name="mtm_accept_cert">Accept Unknown Certificate?</string>
+    <string name="mtm_decision_always">Always</string>
+    <string name="mtm_decision_once">Once</string>
+    <string name="mtm_decision_abort">Abort</string>
+    <string name="mtm_notification">Certificate Verification</string>
+    <string name="alert_dialog_text_entry">Add To Monty Chat Friend List</string>
+    <string name="alert_dialog_username">Name:</string>
+    <string name="alert_dialog_userid">User Id:</string>
+    <string name="alert_dialog_password">Password:</string>
+    <string name="alert_dialog_ok">OK</string>
+    <string name="alert_dialog_cancel">Cancel</string>
+    <string name="text_profile">Profile</string>
+    <string name="set_status_msg_hint">set your status message here</string>
+	<string name="set_status_title">Set Your Status</string>
+	<string name="status_popup_name">Set your status</string>
+	<string name="status_popup_name_edit">Set your Name</string>
+	
+	<string name="typing"><i>is typing</i></string>
+	<string name="typing."><i>is typing.</i></string>
+    <string name="typing.."><i>is typing..</i></string>
+    <string name="typing..."><i>is typing...</i></string>
+    
+    <string name="alert_dialog_add_roster_entry">Friend Request from User</string>
+    <string name="alert_dialog_edit_roster_entry">Edit Friend Entry</string>
+    <string name="alert_dialog_accept">Accept</string>
+    <string name="alert_dialog_reject">Reject</string>
+    <string name="welcome_msg"><i>Welcome to Call Lebanon !!! Please enter your email address for Registration. A verification code shall be sent
+        to this email address. </i></string>
+    <string name="crash_toast_text">Ooooops ! I crashed, but a report has been sent to my developer to help fix the issue !</string>
+	<string name="crash_dialog_title">CallLenanon has crashed</string>
+	<string name="crash_dialog_text">An unexpected error occurred forcing the
+    application to stop. Please help us fix this by sending us error data,
+    all you have to do is click \'OK\'.</string>
+	<string name="crash_dialog_comment_prompt">You might add your comments about the problem below:</string>
+	<string name="crash_dialog_ok_toast">Thank you !</string>
+	<string name="reconnecting_in">Reconnecting in</string>
+	<string name="reconnect_now">Reconnect Now</string>
+	<string name="applicationId">106718399491155</string>
+	<string name="upload_to_fb">Upload to Facebook</string>
+	<string name="post_to_fb">Post to Facebook</string>
+	<string name="select_fb_image">Use Facebook Image</string>
+</resources>

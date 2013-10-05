@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:minHeight="48dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/roster_relative" >
+   
+    <TextView
+        	android:id="@+id/sku_name"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_marginLeft="10dp"
+        	android:layout_marginTop="5dp"
+        	android:singleLine="true"
+        	android:textColor="@color/black"
+        	android:textSize="16sp"
+        	android:textStyle="bold" 
+        	android:layout_alignParentTop="true"/>
+
+        <TextView
+            android:id="@+id/sku_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:textColor="#000000"
+            android:singleLine="true"
+            android:textSize="12sp" />
+        <ImageButton 
+            android:id="@+id/sku_buy_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/buy"/>
+</RelativeLayout>

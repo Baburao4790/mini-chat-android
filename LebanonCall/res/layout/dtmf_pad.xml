@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+ 	android:orientation="vertical"
+	android:layout_width="match_parent" 
+	android:layout_height="match_parent"
+	android:gravity="center" 
+	android:focusable="true"
+	android:background="@drawable/dbg">
+	
+    <RelativeLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center" 
+		android:focusable="true"> 
+
+	    <EditText 
+			android:id="@+id/dtmf_for_dialing" 
+			android:layout_width="match_parent"
+			android:layout_height= "wrap_content" 
+			android:layout_marginTop="4dip"
+			android:gravity="center"
+			android:typeface ="serif"
+			android:maxLength = "32"
+			android:singleLine ="false"
+			android:editable = "false"
+			android:background ="#00000000"
+			android:textColor="@color/white"
+			android:cursorVisible ="false"
+			android:textSize="30dip" />
+			
+	</RelativeLayout>
+	
+	<LinearLayout 
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical"
+ 		android:layout_width="match_parent"
+    	android:layout_weight="4"
+    	android:layout_alignParentLeft="true"
+		android:layout_alignParentBottom="true"
+    	android:layout_height="wrap_content">
+ 	
+		<LinearLayout 
+			xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:layout_width="match_parent"
+		    android:layout_weight="3"
+		    android:layout_alignParentLeft="true"
+			android:layout_alignParentBottom="true"
+		    android:layout_height="wrap_content">
+		
+			<ImageButton 
+				android:id="@+id/b1" 
+				android:layout_width="0dip"
+				android:layout_height="70dip"
+				android:layout_weight="1"
+				android:layout_alignParentLeft="true"
+				android:layout_alignParentBottom="true"
+				android:background="@drawable/button_1_switcher" />
+			
+			<ImageButton 
+				android:id="@+id/b2" 
+				android:layout_width="0dip"
+				android:layout_height="70dip"
+				android:layout_weight="1"
+				android:layout_alignParentLeft="true"
+				android:layout_alignParentBottom="true"
+				android:background="@drawable/button_2_switcher" />
+			
+			<ImageButton 
+				android:id="@+id/b3" 
+				android:layout_width="0dip"
+				android:layout_height="70dip"
+				android:layout_weight="1"
+				android:background="@drawable/button_3_switcher" />
+				
+		</LinearLayout>
+			
+ 		<LinearLayout 
+ 			xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:layout_width="match_parent"
+		    android:layout_weight="3"
+		    android:layout_height="wrap_content">
+		    
+			<ImageButton 
+				android:id="@+id/b4" 
+				android:layout_width="0dip"
+				android:layout_height="70dip"
+				android:layout_weight="1"
+				android:background="@drawable/button_4_switcher" />
+			
+			<ImageButton 
+				android:id="@+id/b5" 
+				android:layout_width="0dip"
+				android:layout_height="70dip"
+				android:layout_weight="1"
+				android:background="@drawable/button_5_switcher" />
+				
+			<ImageButton 
+				android:id="@+id/b6" 
+				android:layout_width="0dip"
+				android:layout_height="70dip"
+				android:layout_weight="1"
+				android:background ="@drawable/button_6_switcher"/> 
+			
+		</LinearLayout>		
+		
+		<LinearLayout 
+			xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:layout_width="match_parent"
+		    android:layout_weight="3"
+		    android:layout_alignParentLeft="true"
+			android:layout_alignParentBottom="true"
+		    android:layout_height="wrap_content">
+		    	
+			<ImageButton 
+				android:id="@+id/b7" 
+				android:layout_width="0dip"
+				android:layout_height="70dip"
+				android:layout_weight="1"
+				android:background="@drawable/button_7_switcher" />
+			
+			<ImageButton 
+				android:id="@+id/b8" 
+				android:layout_width="0dip"
+				android:layout_height="70dip"
+				android:layout_weight="1"
+				android:background="@drawable/button_8_switcher" />
+			
+			<ImageButton 
+				android:id="@+id/b9" 
+				android:layout_width="0dip"
+				android:layout_height="70dip"
+				android:layout_weight="1"
+				android:background="@drawable/button_9_switcher" />
+				
+		</LinearLayout>	
+
+		<LinearLayout 
+			xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:layout_width="match_parent"
+		    android:layout_weight="3"
+		    android:layout_height="wrap_content">
+			
+			<ImageButton 
+				android:id="@+id/bstar" 
+				android:layout_width="0dip"
+				android:layout_height="70dip"
+				android:layout_weight="1"
+				android:background="@drawable/button_star_switcher" />
+			
+			<ImageButton 
+				android:id="@+id/b0" 
+				android:layout_width="0dip"
+				android:layout_height="70dip"
+				android:layout_weight="1"
+				android:background="@drawable/button_0_switcher" />
+			
+			<ImageButton 
+				android:id="@+id/bhash" 
+				android:layout_width="0dip"
+				android:layout_height="70dip"
+				android:layout_weight="1"
+				android:background="@drawable/button_hash_switcher" />
+				
+		</LinearLayout>	
+	
+	</LinearLayout>
+	
+</RelativeLayout>
+

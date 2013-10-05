@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dbg">
+    
+	<TextView  
+	    android:id="@+id/image_text"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="10dp"
+	    android:layout_marginBottom="10dp"
+	    android:gravity="center"
+	    android:textStyle="bold"
+	    android:textSize="17sp"
+	    android:text="Select Your Avatar Image"/>
+	
+	<ImageView
+		android:id="@+id/iv_photo"
+		android:layout_marginTop="10dp"
+		android:layout_centerInParent="true"
+		android:layout_width="wrap_content" 		 
+		android:layout_height="wrap_content"
+		android:layout_below="@id/image_text"
+		android:background="@drawable/image_border"/>
+	
+	
+	
+	
+	<Button
+        android:id="@+id/btn_crop"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/iv_photo"
+        android:layout_alignParentRight="true"
+        android:text="@string/btn_select_image" 
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/grey"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/all_button_selector"/>
+	
+	    <CheckBox
+        android:id="@+id/fbuploadcheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_crop"
+        android:layout_centerHorizontal="true"
+        android:text="@string/post_to_fb" />
+
+	<Button
+        android:id="@+id/btnSend"
+        android:layout_width="125dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/fbuploadcheckbox"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        android:text="@string/btn_send" 
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="30dp"
+        android:visibility="invisible"
+        android:textColor="@color/grey"
+        android:background="@drawable/all_button_selector"/>
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="125dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/fbuploadcheckbox"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp"
+        android:text="@string/btn_cancel" 
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/grey"
+        android:visibility="invisible"
+        android:background="@drawable/all_button_selector"/>
+    
+    <ImageView
+		android:id="@+id/iv_fb_photo"
+		android:layout_marginTop="10dp"
+		android:layout_centerInParent="true"
+		android:layout_width="wrap_content" 		 
+		android:layout_height="wrap_content"
+		android:layout_below="@id/btn_crop"
+		android:visibility="invisible"
+		android:background="@drawable/image_border"/>
+	
+	<Button
+        android:id="@+id/btn_use_fb_pic"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/iv_fb_photo"
+        android:layout_alignParentRight="true"
+        android:text="@string/select_fb_image" 
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/grey"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:visibility="invisible"
+        android:background="@drawable/all_button_selector"/>
+    
+		
+</RelativeLayout>

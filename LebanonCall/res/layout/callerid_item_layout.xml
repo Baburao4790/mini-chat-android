@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:minHeight="48dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/roster_relative" 
+    android:descendantFocusability="blocksDescendants">
+   
+    <TextView
+        	android:id="@+id/callerid_number"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_marginLeft="10dp"
+        	android:layout_centerVertical="true"
+        	android:singleLine="true"
+        	android:textColor="@color/black"
+        	android:textSize="16sp"
+        	android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/callerid_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:textColor="#000000"
+            android:singleLine="true"
+            android:textSize="16sp" 
+            android:visibility="gone"/>
+        <ImageButton 
+            android:id="@+id/verify_caller_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/verify"
+            android:visibility="gone"/>
+</RelativeLayout>

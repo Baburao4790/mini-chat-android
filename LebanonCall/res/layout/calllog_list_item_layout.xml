@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:minHeight="48dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/roster_relative" >
+
+    <ImageView
+        android:id="@+id/friend_pic"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/person_icon"
+        android:background="@drawable/image_border" />
+   
+    <LinearLayout
+        android:id="@+id/contact_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/friend_pic"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="8dp"
+        android:orientation="vertical" >
+        
+         <TextView
+        	android:id="@+id/friend_name"
+        	android:layout_width="125dp"
+        	android:layout_height="wrap_content"
+        	android:ellipsize="end"
+        	android:singleLine="true"
+        	android:textColor="@color/black"
+        	android:textSize="16sp"
+        	android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/friend_phone"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:gravity="left"
+            android:ellipsize="end"
+            android:textColor="#000000"
+            android:singleLine="true"
+            android:textSize="12sp" />
+        
+    </LinearLayout>
+    
+    <ImageView
+        android:id="@+id/friend_status"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"/>
+  
+ 	<LinearLayout
+        android:id="@+id/call_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/contact_info"
+        android:layout_toLeftOf="@+id/friend_status"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="8dp"
+        android:orientation="vertical" >
+        
+         <TextView
+        	android:id="@+id/call_date"
+        	android:layout_width="130dp"
+        	android:layout_height="wrap_content"
+        	android:ellipsize="end"
+        	android:singleLine="true"
+        	android:textColor="@color/black"
+        	android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/call_duration"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:gravity="left"
+            android:ellipsize="end"
+            android:textColor="#000000"
+            android:singleLine="true"
+            android:textSize="8sp" />
+        
+    </LinearLayout>
+	
+	
+   
+
+</RelativeLayout>

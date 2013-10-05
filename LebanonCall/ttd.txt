@@ -1,0 +1,9 @@
+1. Unregister from service needs to be properly handled.
+2. DTMF * and # do not work.
+3. DTMF Dial Pad UI needs overhaul.
+4. In-Call Screen UI needs overhaul.
+5. Speaker mode does not seem to be working properly everytime.
+6. BT headset mode needs to be tested.
+7. SIP Registration Timeout needs to be handled properly.
+8. NAT might need to be handled properly.
+9. Option for buying credits needs to be provided.
