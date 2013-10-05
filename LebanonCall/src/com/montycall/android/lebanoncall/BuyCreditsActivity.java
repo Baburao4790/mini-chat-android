@@ -65,7 +65,7 @@ public class BuyCreditsActivity extends SherlockActivity {
 
 	static IabHelper mHelper;
 	IabHelper.QueryInventoryFinishedListener mQueryFinishedListener;
-	//private static final String TAG = "BuyCreditsActivity";
+	private static final String TAG = "BuyCreditsActivity";
 	private BuyCreditsActivityAdapter mAdapter;
 	private ArrayList<SkuDetails> mSkuList = new ArrayList<SkuDetails>();
 	private static Context mContext;
