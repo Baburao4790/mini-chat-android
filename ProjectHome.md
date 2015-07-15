@@ -1,0 +1,1 @@
+nothing more than using simple chat application built on xmpp protocol using asmack
